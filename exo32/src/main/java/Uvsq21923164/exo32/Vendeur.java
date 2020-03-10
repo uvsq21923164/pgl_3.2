@@ -1,11 +1,11 @@
 package Uvsq21923164.exo32;
 
 public class Vendeur extends Employe {
-private double commission;
+private double comm;
 	
 	@Override
 	public double calculSalaire() {
-		return super.calculSalaire() + commission;
+		return super.calculSalaire() + comm;
 	}
 	
 }
