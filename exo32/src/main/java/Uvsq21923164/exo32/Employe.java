@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class Employe {
 
-	private final String nom;
+	private final String nom ;
 	private final int annee_arrivee;
 	
 	public Employe(String nom,int annee) {
